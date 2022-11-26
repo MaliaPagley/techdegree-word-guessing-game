@@ -55,6 +55,11 @@ button {
   transition: var(--transition);
 }
 
+button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -94,7 +99,9 @@ button {
 
 .show {
   color: #000;
-  background-color: #76CE82;
+  background-color: #5b85b7; 
+  border-radius: 1em;
+  transition-duration: 2s; 
 }
 
 /* Keyboard */
